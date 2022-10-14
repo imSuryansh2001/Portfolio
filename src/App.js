@@ -1,25 +1,46 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Contact from './Components/Contact';
+import Five from './Components/Five';
+import Four from './Components/Four';
+import One from './Components/One';
+import Six from './Components/Six';
+import Three from './Components/Three';
+import TwoCarousel from './Components/TwoCarousel';
+import "./App.css"
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+
+      <div class="context">
+      <One />
+      <TwoCarousel />
+      <Three />
+      <Four />
+      <Five />
+      <Six />
+      <Contact />
+      </div>
+
+
+      <div class="area" >
+        <ul class="circles">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div >
+
+
+    </>
   );
 }
 
-export default App;
+export default App

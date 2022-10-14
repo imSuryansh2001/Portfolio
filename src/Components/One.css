@@ -1,0 +1,5 @@
+#transparent-nav {
+    background: #4021398d;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
