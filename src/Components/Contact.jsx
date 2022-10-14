@@ -38,7 +38,7 @@ const Contact = () => {
                     {/* div for phone-no */}
                     <div  className='flex w-[90%] md:justify-start items-center justify-center'>
                         <BsPhoneFill className='text-3xl mt-4 text-[#E1B7D8]'/>
-                        <p className='text-white text-xl mt-2 ml-2'>Chitkara University</p>
+                        <p className='text-white text-xl mt-2 ml-2'>8168930702</p>
                     </div>
 
                     <hr className='text-[#E1B7D8] ml-6 md:ml-0 w-[90%] md:mt-8 mt-4'/>

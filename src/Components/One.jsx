@@ -30,7 +30,7 @@ const One = () => {
 
             {/* nav menu side section */}
             {/* div for mobile */}
-            <div id="transparent-nav" className={nav ? " ease-in-out duration-[1.5s] z-[2] fixed h-[40vh] md:h-[45vh] lg:h-[50vh] xl:h-[55vh] rounded-bl-3xl rounded-br-3xl md:ml-[50%] lg:ml-[70%] xl:ml-[80%] md:rounded-bl-full mt-11 lg:mt-1  w-full md:w-[50%] lg:w-[30%] xl:w-[25%]" : "absolute left-[-100%]"}>
+            <div id="transparent-nav" className={nav ? " ease-in-out duration-[1.5s] z-[2] fixed h-[45vh] md:h-[45vh] lg:h-[50vh] xl:h-[55vh] rounded-bl-3xl rounded-br-3xl md:ml-[50%] lg:ml-[70%] xl:ml-[80%] md:rounded-bl-full mt-11 lg:mt-1  w-full md:w-[50%] lg:w-[30%] xl:w-[25%]" : "absolute left-[-100%]"}>
 
                 <center>
                     <ul>
