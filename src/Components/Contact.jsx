@@ -18,7 +18,7 @@ const Contact = () => {
 
                 <img className='w-[90%] md:w-[45%] lg:w-[30%] xl:w-[25%] rounded-tr-full rounded-tl-full m-auto' src={atwo} alt={atwo} />
 
-                <div className='md:w-[45%] md:flex-col md:items-center md:justify-center'>
+                <div className='md:w-[40%] md:flex-col md:items-center md:justify-center'>
                     <h1 className='text-[#E1B7D8] text-center text-3xl md:text-4xl md:text-start mt-10 font-bold'>LEARN TOGETHER AND GROW TOGETHER</h1>
                     
                     {/* div for social icons */}

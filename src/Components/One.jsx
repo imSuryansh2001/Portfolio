@@ -17,14 +17,16 @@ const One = () => {
     return (
         <>
             {/* nav section */}
-            <nav className='flex h-[7vh] items-center rounded-bl-2xl rounded-br-2xl p-3 md:p-5 z-[2] fixed w-[100%] top-0 bg-[#402139] justify-between'>
+            <center>
+            <nav className='flex h-[7vh] items-center rounded-bl-2xl m-auto rounded-br-2xl p-6 md:p-5 z-[2] fixed w-full top-0 bg-[#402139] justify-between'>
                 {/* hamburger div */}
                 <div onClick={handleHamburgerMenu} >
                     {nav ? <FiX className="text-white lg:cursor-pointer text-2xl" /> : <BsList className='text-white lg:cursor-pointer text-2xl' />}
 
                 </div>
-               <Link to="contact" smooth={true} duration={2000}><p className='text-white lg:cursor-pointer'>Any Help !!!</p></Link>
+               <Link to="contact" smooth={true} duration={2000}><p className='text-white  lg:cursor-pointer'>Any Help !!!</p></Link>
             </nav>
+            </center>
 
 
             {/* nav menu side section */}
