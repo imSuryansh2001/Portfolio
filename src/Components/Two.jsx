@@ -8,7 +8,7 @@ const Two = (props) => {
       <img id="about" className='mt-24 md:w-[70%] lg:w-[50%] m-auto md:mt-32 lg:mt-40' src={abouttext} alt={abouttext} />
 
       {/* main box */}
-      <div className=' md:flex md:flex-row md:mt-10 md:justify-evenly md:items-center mb-6'>
+      <div className=' md:flex md:flex-row md:mt-10 md:justify-evenly md:items-center mb-6' data-aos="fade-right">
         <div>
 
           <div className='flex items-center mt-10'>

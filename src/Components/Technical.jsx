@@ -11,7 +11,7 @@ const Technical = () => {
   return (
     <>
         {/* technical skills main div */}
-        <div className='flex w-[80%] md:w-[50%] lg:w-[40%] xl:w-[30%] m-auto flex-wrap justify-evenly'>
+        <div className='flex w-[80%] md:w-[50%] lg:w-[40%] xl:w-[30%] m-auto flex-wrap justify-evenly' data-aos="fade-left">
             <img className='h-[4rem] md:h-[6rem] mx-4 mt-12 md:mt-16 w-[4rem] md:w-[6rem]'src={html} alt={html} />
             <img className='h-[4rem] md:h-[6rem] mx-4 mt-12 md:mt-16 w-[4rem] md:w-[6rem]'src={css} alt={css} />
             <img className='h-[4rem] md:h-[6rem] mx-4 mt-12 md:mt-16 w-[4rem] md:w-[6rem]'src={javascript} alt={javascript} />

@@ -20,7 +20,7 @@ const Six = () => {
             <img id="certificates" className='w-[90%] md:w-[70%] lg:w-[40%] xl:mt-40 md:mt-32  m-auto mt-24' src={certificates} alt={certificates} />
 
 
-            <Swiper className='w-[95%] md:w-[80%] xl:h-[70vh] xl:w-[70%] rounded-2xl mt-6'
+            <Swiper className='w-[95%] md:w-[80%] xl:h-[70vh] xl:w-[70%] rounded-2xl mt-6' data-aos="zoom-in-down"
                 // install Swiper modules
                 modules={[Navigation, Scrollbar, A11y]}
                 spaceBetween={20}

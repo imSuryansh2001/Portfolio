@@ -26,9 +26,9 @@ const Four = () => {
             {/* text and image box */}
             <div className='flex mt-6 lg:mt-10 flex-col md:flex-row md:justify-evenly lg:justify-around md:items-center justify-center w-[95%] m-auto'>
 
-                <p className='text-white md:w-[45%] text-xl font-thin text-justify'>I have made several projects till now  the majority of them were solo projects because at that time I was learning on my own. By the time I started exploring more and making team-based projects because learning never stops. </p>
+                <p className='text-white md:w-[45%] text-xl font-thin text-justify' data-aos="fade-up">I have made several projects till now  the majority of them were solo projects because at that time I was learning on my own. By the time I started exploring more and making team-based projects because learning never stops. </p>
 
-                <img className='mt-10 md:w-[45%]' src={responsive} alt={responsive} />
+                <img className='mt-10 md:w-[45%] ' data-aos="fade-up-left" src={responsive} alt={responsive} />
 
             </div>
 
@@ -43,9 +43,9 @@ const Four = () => {
                 onSwiper={(swiper) => console.log(swiper)}
                 onSlideChange={() => console.log('slide change')}
             >
-                <SwiperSlide className='text-white'> <Projects/> </SwiperSlide>
-                <SwiperSlide className='text-white'> <Projects/> </SwiperSlide>
-                <SwiperSlide className='text-white'> <Projects/> </SwiperSlide>
+                <SwiperSlide className='text-white' data-aos="flip-left"> <Projects/> </SwiperSlide>
+                <SwiperSlide className='text-white' data-aos="flip-right"> <Projects/> </SwiperSlide>
+                <SwiperSlide className='text-white' data-aos="flip-left"> <Projects/> </SwiperSlide>
                 
             </Swiper>
 
