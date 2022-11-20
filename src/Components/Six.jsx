@@ -1,12 +1,15 @@
 import React from 'react'
 import certificates from "../images/certificates.svg"
-import wone from "../images/wone.jpg"
-import wtwo from "../images/wtwo.jpg"
+import htmlcss from "../certificates/htmlcss.jpg"
+import skills from "../certificates/skills.png"
+import tackathon from "../certificates/tackathon.jpeg"
+import design from "../certificates/design.JPG"
+import cplusplus from "../certificates/cplusplus.png"
 // import Swiper core and required modules
 import { Navigation, Scrollbar, A11y } from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
-
+import "./Six.css"
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -20,7 +23,7 @@ const Six = () => {
             <img id="certificates" className='w-[90%] md:w-[70%] lg:w-[40%] xl:mt-40 md:mt-32  m-auto mt-24' src={certificates} alt={certificates} />
 
 
-            <Swiper className='w-[95%] md:w-[80%] xl:h-[70vh] xl:w-[70%] rounded-2xl mt-6' data-aos="zoom-in-down"
+            <Swiper className='w-[95%] md:w-[80%] xl:h-[120vh] xl:w-[70%] rounded-2xl mt-6' data-aos="zoom-in-down"
                 // install Swiper modules
                 modules={[Navigation, Scrollbar, A11y]}
                 spaceBetween={20}
@@ -31,10 +34,11 @@ const Six = () => {
                 onSwiper={(swiper) => console.log(swiper)}
                 onSlideChange={() => console.log('slide change')}
             >
-                <SwiperSlide> <img src={wone} alt={wone} /> </SwiperSlide>
-                <SwiperSlide> <img src={wtwo} alt={wtwo} /> </SwiperSlide>
-                <SwiperSlide> <img src={wone} alt={wone} /> </SwiperSlide>
-                <SwiperSlide> <img src={wtwo} alt={wtwo} /> </SwiperSlide>
+                <SwiperSlide> <img src={htmlcss} alt={htmlcss} /> </SwiperSlide>
+                <SwiperSlide> <img src={tackathon} alt={tackathon} /> </SwiperSlide>
+                <SwiperSlide> <img src={cplusplus} alt={cplusplus} /> </SwiperSlide>
+                <SwiperSlide> <img src={design} alt={design} /> </SwiperSlide>
+                <SwiperSlide> <img src={skills} alt={skills} /> </SwiperSlide>
 
             </Swiper>
 

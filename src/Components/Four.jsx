@@ -44,8 +44,7 @@ const Four = () => {
                 onSlideChange={() => console.log('slide change')}
             >
                 <SwiperSlide className='text-white' data-aos="flip-left"> <Projects/> </SwiperSlide>
-                <SwiperSlide className='text-white' data-aos="flip-right"> <Projects/> </SwiperSlide>
-                <SwiperSlide className='text-white' data-aos="flip-left"> <Projects/> </SwiperSlide>
+                
                 
             </Swiper>
 

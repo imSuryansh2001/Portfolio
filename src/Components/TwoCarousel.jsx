@@ -32,34 +32,34 @@ const TwoCarousel = () => {
         className="mySwiper"
       >
         <SwiperSlide className='p-3 mb-8 md:mb-12 lg:mb-16'> <Two
-          one="BILL PAYMENTS , BILL TRANSFER ,QR PAYMENTS"
-          two="CREDIT CARD PAYMENT AND ORDER FOOD MORE"
-          three="GET YOUR MONEY TO MOVE SIMPLE TO USE"
-          four="BOOST YOUR SAVING WITH RIGHT CREDIT CARD"
+          one="Hello i m Suryansh"
+          two="I m from Karnal"
+          three="Pursuing BCA from Chitkara University"
+          four="Working in acm student chapter"
         />
         </SwiperSlide>
 
         <SwiperSlide className='p-3 mb-8 md:mb-12 lg:mb-16'> <Two
-          one="BILL PAYMENTS , BILL TRANSFER ,QR PAYMENTS"
-          two="CREDIT CARD PAYMENT AND ORDER FOOD MORE"
-          three="GET YOUR MONEY TO MOVE SIMPLE TO USE"
-          four="BOOST YOUR SAVING WITH RIGHT CREDIT CARD"
+          one="Learning fullstack web development"
+          two="Problem solving with data structures in C++"
+          three="Web designing (Figma+Photoshop)"
+          four="Eager to know about latest trends in market"
         />
         </SwiperSlide>
 
         <SwiperSlide className='p-3 mb-8 md:mb-12 lg:mb-16'> <Two
-          one="BILL PAYMENTS , BILL TRANSFER ,QR PAYMENTS"
-          two="CREDIT CARD PAYMENT AND ORDER FOOD MORE"
-          three="GET YOUR MONEY TO MOVE SIMPLE TO USE"
-          four="BOOST YOUR SAVING WITH RIGHT CREDIT CARD"
+          one="I have made several solo's and team based projects"
+          two="I like web development and its js libraries"
+          three="work with other developers for exposure and experience"
+          four="I believe in learning together and growing together"
         />
         </SwiperSlide>
 
         <SwiperSlide className='p-3 mb-8 md:mb-12 lg:mb-16'> <Two
-          one="BILL PAYMENTS , BILL TRANSFER ,QR PAYMENTS"
-          two="CREDIT CARD PAYMENT AND ORDER FOOD MORE"
-          three="GET YOUR MONEY TO MOVE SIMPLE TO USE"
-          four="BOOST YOUR SAVING WITH RIGHT CREDIT CARD"
+          one="Tackathon - 2022 1st position"
+          two="Design-o-tech - 2022 1st position"
+          three="Participated in bootcamps to enhance my skills"
+          four="Working on my capabilities and enhancing my skills"
         />
         </SwiperSlide>
 
